@@ -14,7 +14,7 @@ This repository contains code for a discrete toy model of damageable springs, de
 The discrete toy model represents a simplified system of interconnected springs, where each spring can undergo damage over time. The model aims to capture the evolution of damage and softening within the material and its effects on the overall structural mechanical behavior.
 More fundamentally, we are testing an evolution law based on a unilateral notion of stability which can be put under the following form
 
-Given a state $y$ and its associated energy $E$, given admissible variations $z\in \mathcal K$, then $y$ is (statically) Stable _only if_
+Given a state $y$ and its associated energy $E$, given admissible variations $z\in \mathcal K$ (a Sobolev space, a convex set or not necessarily a vector space), then $y$ is (statically) Stable _only if_
 
 $$
 E(y)\leq E(y+z), \quad \forall z \in \mathcal K
