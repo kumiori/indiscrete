@@ -26,7 +26,7 @@ More practically,
 We show how to fully exploit a variational stability criterion to study a 1d nontrivial discrete (fully nonlinear) model of $N$ elements,  
 providing full closed form solutions for the evolution problem. Furthermore, we explore three models which are commonplace in
 the applications of fracture mechanics, providing interactive notebooks reproduce the conceptual experiments.
-To expand on the topic, we provide a comparison with a numerically computed solution via finite elements (cf. (irrevolutions)[[https"](https://github.com/kumiori/irrevolutions)])
+To expand on the topic, we provide a comparison with a numerically computed solution via finite elements (cf. [irrevolutions](https://github.com/kumiori/irrevolutions))
 showing one fundamental difference between the 1d and the general case. 
 Finally, to further investigate the connection between discrete and continuum models, we sketch the asymptotic process of $\lim N \to \infty$ which leads to a well-posed 1d evolutionary continuum model.
 
